@@ -1,4 +1,4 @@
-Date Time Formatter
+Date Time Formatter [![Build Status](https://travis-ci.org/tmcwilliam/date-formatter.svg?branch=master)](https://travis-ci.org/tmcwilliam/date-formatter)
 =========
 
 A small library that formats datestamps and timestamps
