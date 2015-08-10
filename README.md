@@ -1,7 +1,7 @@
-Date Time Formatter [![Build Status](https://travis-ci.org/tmcwilliam/date-formatter.svg?branch=master)](https://travis-ci.org/tmcwilliam/date-formatter)
+Date Formatter [![Build Status](https://travis-ci.org/tmcwilliam/date-formatter.svg?branch=master)](https://travis-ci.org/tmcwilliam/date-formatter)
 =========
 
-A small library that formats datestamps and timestamps
+A small library that formats timestamps
 
 ## Installation
 
@@ -20,7 +20,3 @@ A small library that formats datestamps and timestamps
 ## Tests
 
   `npm test`
-
-## Contributing
-
-In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
