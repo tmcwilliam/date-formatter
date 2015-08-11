@@ -4,5 +4,7 @@ import { toMicroDate } from '../lib/index';
 QUnit.module("Date/Time Formatter");
 
 QUnit.test("Micro date", function() {
-	QUnit.equal(toMicroDate(1439096900000), "8/10/2015");
+	var aug9 = new Date(1439096900000);
+
+	QUnit.equal(toMicroDate(aug9), "8/9/2015");
 });
