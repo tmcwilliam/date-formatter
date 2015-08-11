@@ -7,14 +7,17 @@ A small library that formats timestamps
 
   `npm install @tmcwilliam/date-formatter`
 
-## Usage
+## ES6 Usage
 
-    var dateTimeFormatter = require('@tmcwilliam/date-formatter');
+    import { toMicroDate } from '@tmcwilliam/date-formatter';
 
-    var formattedDate = dateTimeFormatter(1439164800000, {pattern: "MM DD, YYYY"});
+	const aug9 = new Date(1439096900000);
+	const formattedDate = toMicroDate(aug9);
+
+	console.log(formattedDate);
   
   
-  Output should be `08 09, 2015`
+  Output should be `8/9/2015`
 
 
 ## Tests

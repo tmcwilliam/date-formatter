@@ -56,4 +56,66 @@ const toMicroDate = (dateObj) => {
 	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.micro });
 };
 
-export { toMicroDate };
+// 11/24/2011, 01/02/2015
+const toTinyDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.tiny });
+};
+
+// Nov 4, 2011
+const toShorterDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.shorter });
+};
+
+// Nov 04, 2011
+const toShortDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS['short'] });
+};
+
+// Aug 25
+const toMonthDayDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.monthday });
+};
+
+// Thu, Nov 24, 2011
+const toMediumDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.medium });
+};
+
+// November 24, 2011
+const toLongDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS['long'] });
+};
+
+// Thursday, November 24, 2011
+const toFullDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.full });
+};
+
+// Nov 2011
+const toDatepicker = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.picker });
+};
+
+// November 2011
+const toMonthYearDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: DATE_FORMATS.monthyear });
+};
+
+// 2011-11-24 (for the datetime attribute of a <time> element)
+const toYearMonthDate = (dateObj) => {
+	return dateTimeFormatter(dateObj, { pattern: 'YYYY-MM-DD' });
+};
+
+export { 
+	toMicroDate, 
+	toTinyDate,
+	toShorterDate,
+	toShortDate,
+	toMonthDayDate,
+	toMediumDate,
+	toLongDate,
+	toFullDate,
+	toDatepicker,
+	toMonthYearDate,
+	toYearMonthDate
+};
