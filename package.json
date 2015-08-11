@@ -1,6 +1,6 @@
 {
   "name": "@tmcwilliam/date-formatter",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple date formatter",
   "main": "lib/index.js",
   "scripts": {
