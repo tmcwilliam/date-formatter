@@ -8,7 +8,6 @@ const AUGUST_9_2015 = new Date(1439096900000)
 
 test('Date Formatter', (assert) => {
 	assert.equal(toMicroDate(AUGUST_9_2015), '8/9/2015')
-	assert.equal(toMicroDate(AUGUST_9_2015), '8/9/2015')
 	assert.equal(toTinyDate(AUGUST_9_2015), '08/09/2015')
 	assert.equal(toShorterDate(AUGUST_9_2015), 'Aug 9, 2015')
 	assert.equal(toShortDate(AUGUST_9_2015), 'Aug 09, 2015')
